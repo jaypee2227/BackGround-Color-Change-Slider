@@ -47,6 +47,8 @@ body{
     margin-right: 10px;
     border: 1px solid black;
     border-radius: 20px;
+    display: grid;
+    justify-content: center;
 }
 
 #container12{
@@ -57,7 +59,43 @@ body{
     border-radius: 20px;
 }
 
+#div1{
+    padding-top: 20px;
+    display: inline-block;
+    /* border:1px solid black; */
+    width: 100%;
+}
+
+label{
+    font-size: 1.8em;
+}
+
 input[type="range"]{
-   width: 80%;
-   border: 1px solid black;
+   width: 100%;
+   accent-color: blue;
+}
+
+#read{
+    width: 300px;
+    padding-top: 20px;
+    outline: none;
+    display: inline-block;
+}
+
+#read p{
+    width: 100%;
+    padding: 20px;
+    color: black;
+    font-size: 2em;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#btn{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color:#fff;
+    font-size: 1.8em;
 }
