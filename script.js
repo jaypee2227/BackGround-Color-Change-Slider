@@ -1,7 +1,6 @@
 var red = document.querySelector("#red");
 var green = document.querySelector("#green");
 var blue = document.querySelector("#blue");
-
 var read = document.querySelector("#readText");
 
 var res = document.querySelector("#container12");
