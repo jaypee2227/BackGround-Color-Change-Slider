@@ -13,22 +13,25 @@
         <div id="container1">
             <div id="container11">
                 <div id="div1">
-                    <label id="red1">Red:</label>
-                <input type="range" min="0" max="256" value="0" id="red"></input>
+                    <label for="red">Red</label>
+                <input type="range" min="0" max="255" value="0" id="red"></input>
                 </div>
-                <div id="div2">
-                    <label id="red2">Green:</label>
-                <input type="range" min="0" max="256" value="0" id="green"></input>
+                <div id="div1">
+                    <label for="green">Green</label>
+                <input type="range" min="0" max="255" value="0" id="green"></input>
                 </div>
-                <div id="div3">
-                    <label id="red3">Blue:</label>
-                <input type="range" min="0" max="256" value="0" id="blue"></input>
+                <div id="div1">
+                    <label for="blue">Blue</label>
+                <input type="range" min="0" max="255" value="0" id="blue"></input>
+                </div>
+                <div id="read">
+                    <p type="text" placeholder="rgb(0,0,0)" id="readText"></p>
                 </div>
                 <div id="div4">
-                    <button >Change Color</button>
+                    <button id="btn">Change Color</button>
                 </div>
             </div>
-            <div id="container12">Container12</div>
+            <div id="container12"></div>
         </div>
     </div>
     <script src="script.js"></script>
